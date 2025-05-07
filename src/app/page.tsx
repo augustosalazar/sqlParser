@@ -30,7 +30,7 @@ export default function HomePage() {
       <div className="w-full max-w-3xl space-y-8">
         <header className="text-center">
           <h1 className="text-4xl font-bold tracking-tight text-foreground">
-            SQL Parser & CSV Analyzer
+            SQL Parser
           </h1>
           <p className="mt-2 text-lg text-muted-foreground">
             Input your SQL, fetch or paste CSV data, and analyze its content.
