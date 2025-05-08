@@ -7,7 +7,7 @@ A React app that parses SQL queries and displays the parsed tree in a user-frien
 
 ```bash
  cd app
- nmp install
+ npm install
  npm run dev 
 ```
 
