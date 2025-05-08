@@ -32,4 +32,4 @@ jobs:
             docker stop sql
             docker rm sql
             docker build -t sqli . || { echo "Docker build failed"; exit 1; }
-            docker run -d -it -p 5032:3000 --restart unless-stopped --name sql sqli  || { echo "Docker run failed"; exit 1; }
+            docker run -d -it -p 5033:3000 --restart unless-stopped --name sql sqli  || { echo "Docker run failed"; exit 1; }
